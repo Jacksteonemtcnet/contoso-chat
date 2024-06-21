@@ -1,6 +1,6 @@
 metadata description = 'Creates an Azure AI Search instance.'
 param name string
-param location string = resourceGroup().location
+param location string = ‘eastus’
 param tags object = {}
 
 param sku object = {
